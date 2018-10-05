@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B2EA0CA2167177000BE23F7 /* ListCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2EA0C92167177000BE23F7 /* ListCardTableViewController.swift */; };
+		4B2EA0CC216717DA00BE23F7 /* ListCardContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2EA0CB216717DA00BE23F7 /* ListCardContainerViewController.swift */; };
+		4B2EA0CF2167183000BE23F7 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2EA0CD2167183000BE23F7 /* TitleTableViewCell.swift */; };
+		4B2EA0D02167183000BE23F7 /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2EA0CE2167183000BE23F7 /* TitleTableViewCell.xib */; };
+		4B2EA0D22167186000BE23F7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2EA0D12167186000BE23F7 /* Constants.swift */; };
 		4B4121FA215E2F6000AAF0A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4121F9215E2F6000AAF0A4 /* AppDelegate.swift */; };
-		4B4121FC215E2F6000AAF0A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4121FB215E2F6000AAF0A4 /* ViewController.swift */; };
 		4B4121FF215E2F6000AAF0A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4121FD215E2F6000AAF0A4 /* Main.storyboard */; };
 		4B412201215E2F6100AAF0A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B412200215E2F6100AAF0A4 /* Assets.xcassets */; };
 		4B412204215E2F6100AAF0A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B412202215E2F6100AAF0A4 /* LaunchScreen.storyboard */; };
 		4B41220F215E2F6100AAF0A4 /* KisanHubJsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B41220E215E2F6100AAF0A4 /* KisanHubJsonTests.swift */; };
 		4B41221A215E2F6100AAF0A4 /* KisanHubJsonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B412219215E2F6100AAF0A4 /* KisanHubJsonUITests.swift */; };
+		4B412228215E332F00AAF0A4 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B412227215E332F00AAF0A4 /* Response.swift */; };
+		4B41222A215E337B00AAF0A4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B412229215E337B00AAF0A4 /* Data.swift */; };
+		4B41222C215E340E00AAF0A4 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B41222B215E340E00AAF0A4 /* NetworkSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B2EA0C92167177000BE23F7 /* ListCardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardTableViewController.swift; sourceTree = "<group>"; };
+		4B2EA0CB216717DA00BE23F7 /* ListCardContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardContainerViewController.swift; sourceTree = "<group>"; };
+		4B2EA0CD2167183000BE23F7 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		4B2EA0CE2167183000BE23F7 /* TitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
+		4B2EA0D12167186000BE23F7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4B4121F6215E2F6000AAF0A4 /* KisanHubJson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisanHubJson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4121F9215E2F6000AAF0A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B4121FB215E2F6000AAF0A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B4121FE215E2F6000AAF0A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B412200215E2F6100AAF0A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B412203215E2F6100AAF0A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		4B412215215E2F6100AAF0A4 /* KisanHubJsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisanHubJsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B412219215E2F6100AAF0A4 /* KisanHubJsonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisanHubJsonUITests.swift; sourceTree = "<group>"; };
 		4B41221B215E2F6100AAF0A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B412227215E332F00AAF0A4 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		4B412229215E337B00AAF0A4 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4B41222B215E340E00AAF0A4 /* NetworkSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		4B4121F8215E2F6000AAF0A4 /* KisanHubJson */ = {
 			isa = PBXGroup;
 			children = (
+				4B2EA0CD2167183000BE23F7 /* TitleTableViewCell.swift */,
+				4B2EA0CE2167183000BE23F7 /* TitleTableViewCell.xib */,
+				4B41222B215E340E00AAF0A4 /* NetworkSession.swift */,
 				4B4121F9215E2F6000AAF0A4 /* AppDelegate.swift */,
-				4B4121FB215E2F6000AAF0A4 /* ViewController.swift */,
 				4B4121FD215E2F6000AAF0A4 /* Main.storyboard */,
 				4B412200215E2F6100AAF0A4 /* Assets.xcassets */,
 				4B412202215E2F6100AAF0A4 /* LaunchScreen.storyboard */,
 				4B412205215E2F6100AAF0A4 /* Info.plist */,
+				4B412227215E332F00AAF0A4 /* Response.swift */,
+				4B412229215E337B00AAF0A4 /* Data.swift */,
+				4B2EA0C92167177000BE23F7 /* ListCardTableViewController.swift */,
+				4B2EA0D12167186000BE23F7 /* Constants.swift */,
+				4B2EA0CB216717DA00BE23F7 /* ListCardContainerViewController.swift */,
 			);
 			path = KisanHubJson;
 			sourceTree = "<group>";
@@ -229,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2EA0D02167183000BE23F7 /* TitleTableViewCell.xib in Resources */,
 				4B412204215E2F6100AAF0A4 /* LaunchScreen.storyboard in Resources */,
 				4B412201215E2F6100AAF0A4 /* Assets.xcassets in Resources */,
 				4B4121FF215E2F6000AAF0A4 /* Main.storyboard in Resources */,
@@ -256,8 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B4121FC215E2F6000AAF0A4 /* ViewController.swift in Sources */,
+				4B2EA0CF2167183000BE23F7 /* TitleTableViewCell.swift in Sources */,
+				4B41222C215E340E00AAF0A4 /* NetworkSession.swift in Sources */,
+				4B412228215E332F00AAF0A4 /* Response.swift in Sources */,
+				4B2EA0CA2167177000BE23F7 /* ListCardTableViewController.swift in Sources */,
 				4B4121FA215E2F6000AAF0A4 /* AppDelegate.swift in Sources */,
+				4B2EA0CC216717DA00BE23F7 /* ListCardContainerViewController.swift in Sources */,
+				4B41222A215E337B00AAF0A4 /* Data.swift in Sources */,
+				4B2EA0D22167186000BE23F7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
